@@ -87,7 +87,7 @@ body {
     display: flex;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
-    width: 50%;
+    width: 60%;
     border: var(--cor-terciaria) 2px solid;
     font-size: 1.5rem;
     text-align: center;
@@ -102,7 +102,7 @@ body {
 
 .button_form > a:hover{
     background-color: var(--cor-hover);
-    width: 400px;
+    width: 70%;
     transition: 0.2s;
 }
 
