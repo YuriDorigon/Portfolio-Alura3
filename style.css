@@ -52,6 +52,7 @@ a {
     display: flex;
     align-items: center;
 }
+
 .cabecalho__logo {
     width: 41px;
     height: 41px;
@@ -432,6 +433,7 @@ b {
 /* ------------------------------ Responsividade ------------------------------ */
 
 @media (max-width: 768px) {
+
     /* Menu */
     .cabecalho {
         flex-direction: column;
@@ -439,7 +441,7 @@ b {
         padding: 1rem 5%;
     }
 
-    .navegacao{
+    .navegacao {
         display: none;
     }
 
@@ -452,7 +454,6 @@ b {
         font-size: 0.9rem;
     }
 
-    /* Seção Apresentação */
     .apresentacao {
         flex-direction: column-reverse;
         align-items: center;
@@ -463,26 +464,26 @@ b {
         max-width: 90%;
     }
 
-    .apresentacao__titulo{
+    .apresentacao__titulo {
         font-size: 2rem;
     }
 
     .apresentacao__foto {
-        width: 30%; /* Ajusta a largura da foto */
+        width: 30%;
     }
 
     /* Seção Sobre Mim */
     .sobre-mim {
-        height: auto; /* Permite que a altura se ajuste */
-        padding: 2rem 0; /* Ajusta o espaçamento */
+        height: auto;
+        padding: 2rem 0;
     }
 
     .sobre-mim__titulo {
-        font-size: 1.5rem; /* Reduz o tamanho da fonte */
+        font-size: 1.5rem;
     }
 
     .sobre-mim__texto {
-        font-size: 0.9rem; /* Reduz o tamanho da fonte */
+        font-size: 0.9rem;
     }
 
     /* Seção de Habilidades */
@@ -504,85 +505,79 @@ b {
 
     /* Seção de Formações */
     .formacao {
-        height: auto; /* Permite que a altura se ajuste */
-        padding: 2rem 0; /* Ajusta o espaçamento */
+        height: auto;
+        padding: 2rem 0;
     }
 
-    .formacao__elemento{
+    .formacao__elemento {
         height: 250px;
         align-items: center;
     }
 
-    .formacao__lista{
+    .formacao__lista {
         flex-direction: column;
         align-items: stretch;
     }
 
     .formacao__icone--container {
-        width: 100%; /* Ajusta a largura do container */
-        height: 100%; /* Permite que a altura se ajuste */
+        width: 100%;
+        height: 100%;
+
+        .projetos__conteiner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .projetos__nome {
+            font-size: 1.2rem;
+        }
+
+        .projetos__container--texto {
+            align-items: center;
+        }
+
+        .contato__formulario {
+            width: 90%;
+        }
+
+        .contato__campo {
+            height: 60px;
+        }
+
+        .contato__campo--textarea {
+            height: 120px;
+        }
+
+        .contato__botao {
+            width: 100%;
+        }
     }
 
-    /* Seção de Projetos */
-    .projetos__conteiner {
-        flex-direction: column; /* Alinha elementos verticalmente */
-        align-items: center;
-    }
+    @media (max-width: 480px) {
+        .apresentacao__titulo {
+            font-size: 2rem;
+        }
 
-    .projetos__nome {
-        font-size: 1.2rem; /* Reduz o tamanho da fonte */
-    }
+        .apresentacao__subtitulo {}
 
-    .projetos__container--texto{
-        align-items: center;
-    }
+        .sobre-mim__titulo {
+            font-size: 1.5rem;
+        }
 
-    /* Seção de Contato */
-    .contato__formulario {
-        width: 90%; /* Ajusta a largura do formulário */
-    }
+        .sobre-mim__texto {
+            font-size: 0.85rem;
+        }
 
-    .contato__campo {
-        height: 60px; /* Permite que a altura se ajuste */
-    }
+        .habilidades__titulo,
+        .hobbies__titulo {
+            font-size: 1.5rem;
+        }
 
-    .contato__campo--textarea{
-        height: 120px;
-    }
+        .formacao__titulo {
+            font-size: 1.5rem;
+        }
 
-    .contato__botao {
-        width: 100%; /* Ocupa toda a largura disponível */
+        .projetos__nome {
+            font-size: 1.1rem;
+        }
     }
-}
-
-@media (max-width: 480px) {
-    /* Ajustes adicionais para telas menores */
-    .apresentacao__titulo {
-        font-size: 2rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-
-    .apresentacao__subtitulo {
-        font-size: 1.2rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-
-    .sobre-mim__titulo {
-        font-size: 1.5rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-
-    .sobre-mim__texto {
-        font-size: 0.85rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-
-    .habilidades__titulo,
-    .hobbies__titulo {
-        font-size: 1.5rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-
-    .formacao__titulo {
-        font-size: 1.5rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-
-    .projetos__nome {
-        font-size: 1.1rem; /* Reduz ainda mais o tamanho da fonte */
-    }
-}
