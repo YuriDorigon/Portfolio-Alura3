@@ -107,6 +107,7 @@ a {
 .redes {
     display: flex;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
 .redes__elemento::after,
