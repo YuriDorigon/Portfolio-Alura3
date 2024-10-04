@@ -415,6 +415,10 @@ b {
     outline: none;
 }
 
+.contato__campo--textarea{
+    height: 120px;
+}
+
 .contato__botao {
     border: none;
     color: white;
