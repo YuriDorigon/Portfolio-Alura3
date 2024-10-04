@@ -1,6 +1,6 @@
 # Portfólio de Yuri Dorigon
 
-### https://yuridorigon.github.io/Portfolio-Yuri-Dorigon/
+### https://yuridorigon.github.io/Portfolio-Alura3/
 
 Bem-vindo ao meu portfólio! Sou um desenvolvedor front-end com experiência em HTML, CSS e JavaScript. Este repositório contém exemplos dos meus trabalhos e projetos, mostrando minhas habilidades e progresso no desenvolvimento web.
 
