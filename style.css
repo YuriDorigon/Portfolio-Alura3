@@ -107,6 +107,7 @@ a {
 .redes {
     display: flex;
     gap: 2rem;
+    margin-top: 1rem;
 }
 
 .redes__elemento::after,
@@ -236,7 +237,7 @@ b {
 .formacao__lista {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .formacao__elemento {
@@ -492,7 +493,7 @@ b {
     }
 
     .apresentacao__foto {
-        width: 30%;
+        width: 50%;
     }
 
     .redes {
@@ -514,7 +515,7 @@ b {
     }
 
     .skills {
-        height: 1800px;
+        height: 1600px;
     }
 
     .habilidades__lista,
@@ -535,7 +536,7 @@ b {
     }
 
     .formacao__elemento {
-        height: 250px;
+        height: 300px;
         align-items: center;
     }
 
