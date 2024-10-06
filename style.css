@@ -375,6 +375,7 @@ b {
     font-size: 2rem;
     color: var(--cor-do-texto);
     font-weight: bold;
+    text-align: center;
 }
 
 .contato__descricao {
